@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Boots | rugged Footwear Crafted in India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar" id="top">
+        <div class="brand">
+            <div class="brand__mark">BB</div>
+            <div>
+                <span class="brand__name">Bharat Boots</span>
+                <span class="brand__tagline">Built for the long road</span>
+            </div>
+        </div>
+        <nav class="nav" aria-label="Primary">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+            <ul id="nav-list" class="nav__list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cart-button" aria-label="Open cart" aria-haspopup="dialog">
+                Cart <span class="cart-count" aria-live="polite">0</span>
+            </button>
+            <a class="btn btn--ghost nav__cta" href="#contact">Book a fitting</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero__content">
+                <p class="eyebrow">Handcrafted in Rajasthan | Delivered Worldwide</p>
+                <h1>Boots that feel like heritage and perform like tech.</h1>
+                <p class="lede">
+                    Bharat Boots blends traditional leatherwork with modern materials so you can roam farther, whether that is
+                    monsoon streets or mountain passes.
+                </p>
+                <div class="hero__actions">
+                    <a class="btn btn--primary" href="#products">Shop the range</a>
+                    <a class="btn btn--ghost" href="#story">See how we build</a>
+                </div>
+                <div class="hero__stats">
+                    <div>
+                        <strong>24k+</strong>
+                        <span>Pairs broken-in by customers</span>
+                    </div>
+                    <div>
+                        <strong>18 hrs</strong>
+                        <span>Average comfort test per boot</span>
+                    </div>
+                    <div>
+                        <strong>12 mo</strong>
+                        <span>Guarantee against sole separation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__badge">New drop</div>
+                <div class="boot-card">
+                    <div class="boot-card__top">
+                        <span class="label">Desert Rogue</span>
+                        <span class="pill">Limited</span>
+                    </div>
+                    <div class="boot-card__body">
+                        <div class="boot-card__img"></div>
+                        <ul class="boot-card__meta">
+                            <li>Oil-tanned leather</li>
+                            <li>Storm welt</li>
+                            <li>Vibram sole</li>
+                        </ul>
+                    </div>
+                    <div class="boot-card__footer">
+                        <span class="price">INR 9,499</span>
+                        <a class="link" href="#products">View details -></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="story">
+            <div class="section__header">
+                <p class="eyebrow">Why Bharat Boots</p>
+                <h2>Built for India, tested for everywhere.</h2>
+                <p class="lede">We prototype in the Aravalli ranges, then ship the same spec to you.</p>
+            </div>
+            <div class="grid grid--three">
+                <article class="card">
+                    <div class="card__icon">HL</div>
+                    <h3>Hand-lasted</h3>
+                    <p>Every upper is hand-lasted for a snug, glove-like feel before we stitch the storm welt.</p>
+                </article>
+                <article class="card">
+                    <div class="card__icon">MR</div>
+                    <h3>Monsoon-ready</h3>
+                    <p>Water-resistant nubuck, sealed seams, and lugged Vibram outsoles keep you steady on slick roads.</p>
+                </article>
+                <article class="card">
+                    <div class="card__icon">RR</div>
+                    <h3>Repair, not replace</h3>
+                    <p>Modular soles and easy-to-refresh insoles mean you keep the pair you broke in, for years.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--alt" id="products">
+            <div class="section__header">
+                <p class="eyebrow">Featured line-up</p>
+                <h2>Pick your terrain.</h2>
+                <p class="lede">Three silhouettes, one promise: zero hotspots on day one.</p>
+            </div>
+            <div class="grid grid--three product-grid">
+                <article class="product">
+                    <div class="product__img product__img--1"></div>
+                    <div class="product__body">
+                        <h3>Trail Hawk</h3>
+                        <p>High-ankle support, D-ring lacing, and recycled EVA midsole for long hikes.</p>
+                        <div class="product__meta">
+                            <span class="pill">New</span>
+                            <span class="price">INR 8,799</span>
+                        </div>
+                        <div class="product__actions">
+                            <button class="btn btn--primary" data-product="Trail Hawk" data-price="8799">Add to cart</button>
+                            <a class="link" href="#contact">Ask sizing</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="product">
+                    <div class="product__img product__img--2"></div>
+                    <div class="product__body">
+                        <h3>City Monsoon</h3>
+                        <p>Side-zip convenience with gusseted tongue and hydrophobic suede.</p>
+                        <div class="product__meta">
+                            <span class="pill pill--amber">Bestseller</span>
+                            <span class="price">INR 7,999</span>
+                        </div>
+                        <div class="product__actions">
+                            <button class="btn btn--primary" data-product="City Monsoon" data-price="7999">Add to cart</button>
+                            <a class="link" href="#contact">Book fitting</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="product">
+                    <div class="product__img product__img--3"></div>
+                    <div class="product__body">
+                        <h3>Desert Rogue</h3>
+                        <p>Sand-ready crepe sole, breathable lining, and a wider last for airy comfort.</p>
+                        <div class="product__meta">
+                            <span class="pill pill--sage">Limited</span>
+                            <span class="price">INR 9,499</span>
+                        </div>
+                        <div class="product__actions">
+                            <button class="btn btn--primary" data-product="Desert Rogue" data-price="9499">Add to cart</button>
+                            <a class="link" href="#contact">Check availability</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section reviews" id="reviews">
+            <div class="section__header">
+                <p class="eyebrow">Community tested</p>
+                <h2>Voices from the trail.</h2>
+            </div>
+            <div class="grid grid--two reviews__grid">
+                <blockquote class="quote">
+                    <p>"300 km on the Western Ghats and not a single blister. The break-in was one walk around the block."</p>
+                    <footer>- Kavya, Pune</footer>
+                </blockquote>
+                <blockquote class="quote">
+                    <p>"Finally boots that respect monsoon potholes. Grip is confident even on polished office tiles."</p>
+                    <footer>- Arjun, Bengaluru</footer>
+                </blockquote>
+                <blockquote class="quote">
+                    <p>"Customer service sent a replacement in 2 days when my size felt tight. Zero friction."</p>
+                    <footer>- Neeraj, Jaipur</footer>
+                </blockquote>
+                <blockquote class="quote">
+                    <p>"The leather ages beautifully. Five months in, they look like heirlooms."</p>
+                    <footer>- Sana, Delhi</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="cta__content">
+                <div>
+                    <p class="eyebrow">Ready to roam?</p>
+                    <h2>Order ships in 48 hours from Jaipur.</h2>
+                    <p class="lede">If the fit is not right, we pick it up and exchange at no extra cost in India.</p>
+                </div>
+                <div class="cta__actions">
+                    <a class="btn btn--primary" href="#contact">Start an order</a>
+                    <a class="btn btn--ghost" href="#top">Back to top</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact__card">
+                <div class="contact__info">
+                    <p class="eyebrow">Talk to a boot fitter</p>
+                    <h2>Tell us where you are headed.</h2>
+                    <p class="lede">We will match you to the right last, lining, and sole without guesswork.</p>
+                    <ul class="contact__list">
+                        <li>Phone: +91-98290-00000</li>
+                        <li>Email: hello@bharatboots.com</li>
+                        <li>Cities: Jaipur | Mumbai | Bengaluru</li>
+                    </ul>
+                </div>
+                <form class="contact__form">
+                    <label>
+                        Name
+                        <input type="text" name="name" placeholder="Your name" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="you@example.com" required>
+                    </label>
+                    <label>
+                        Destination and terrain
+                        <select name="terrain" required>
+                            <option value="">Pick one</option>
+                            <option>Daily city commute</option>
+                            <option>Weekend treks</option>
+                            <option>Motorcycling</option>
+                            <option>Travel abroad</option>
+                        </select>
+                    </label>
+                    <label>
+                        Foot notes
+                        <textarea name="notes" rows="3" placeholder="Size, width, timeline..."></textarea>
+                    </label>
+                    <button type="submit" class="btn btn--primary">Send request</button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <div class="brand brand--footer">
+                <div class="brand__mark">BB</div>
+                <div>
+                    <span class="brand__name">Bharat Boots</span>
+                    <span class="brand__tagline">Walk boldly.</span>
+                </div>
+            </div>
+            <p class="footer__copy">Heritage leather. Modern engineering. Made in India.</p>
+        </div>
+        <div class="footer__links">
+            <a href="#products">Shop</a>
+            <a href="#story">Craft</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Support</a>
+        </div>
+        <div class="footer__legal">
+            <span>(c) <span id="year"></span> Bharat Boots</span>
+            <span>Free exchanges in India</span>
+        </div>
+    </footer>
+
+    <div class="cart-overlay" hidden></div>
+    <aside class="cart" aria-hidden="true" role="dialog" aria-label="Shopping cart">
+        <div class="cart__header">
+            <div>
+                <p class="eyebrow">Your cart</p>
+                <h3>Ready to ship in 48 hours</h3>
+            </div>
+            <button class="cart__close" aria-label="Close cart">Close</button>
+        </div>
+        <div class="cart__items" aria-live="polite"></div>
+        <div class="cart__summary">
+            <div class="summary__row">
+                <span>Subtotal</span>
+                <span class="cart__subtotal">INR 0</span>
+            </div>
+            <p class="cart__note">Shipping calculated at checkout. Free exchanges in India.</p>
+            <div class="cart__actions">
+                <button class="btn btn--primary cart__checkout">Checkout</button>
+                <button class="btn btn--ghost cart__clear">Clear cart</button>
+            </div>
+        </div>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
